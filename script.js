@@ -6,7 +6,7 @@ const typeWriter = () => {
 	if (i < txt.length) {
 		document.getElementById('terminal').innerHTML += txt.charAt(i);
 		i++;
-		setTimeout(typeWriter, 30);
+		setTimeout(typeWriter, 50);
 	  }
 }
 typeWriter()
