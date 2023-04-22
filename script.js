@@ -17,7 +17,7 @@ const typeWriter = () => {
 	if (i < txt.length) {
 		document.getElementById('terminal').innerHTML += txt.charAt(i);
 		i++;
-		setTimeout(typeWriter, 10);
+		setTimeout(typeWriter, 50);
 	} else {
 		myaud.pause()
 	} 
